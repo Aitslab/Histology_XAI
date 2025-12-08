@@ -9,5 +9,7 @@ The latent representations of the tiles, extracted from the final layer of the t
 
 3 -Colored by the gold standard labels (low, medium, high) for direct comparison between predicted and true classifications.
 
+4- labeled by original image tiles
+
 
 The [first](./Histo_unsupervised_featurespace_VGG16.ipynb) notebook documents the complete workflow for VGG16-based models, and the [second](./Histo_unsupervised_featurespace_EffnetB4.ipynb) outlines the corresponding process for EfficientNet-based models.
