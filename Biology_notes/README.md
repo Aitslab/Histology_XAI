@@ -26,25 +26,25 @@ Inflammation is a natural and necessary process for defending the body. However,
 ![](Images/Inflammatory_cells.jpg)
 
 
-##### H & E slides
+# H&E slides
 The tissue is cut into pieces and put into cassette and fixed with wax and paraffin. A very thin section picked up by technician on a slide and slide goes for staining which is Hematoxylin and eosin (H and E).
 
 
-##### Airspace and empty space within alveolus
+# Airspace and empty space within alveolus
 
-Abnormal things:
+##### Abnormal things
 ![](Images/Corpora_amylacea.png)
-**Round structure which is called corpora amylacea** which is found in older people as an artifact in human lungs.
+Round structure which is called **corpora amylacea** which is found in older people as an artifact in human lungs.
  
 ![](Images/Machrophage.png)
-**Pigmented macrophages in airspace (smoker’s macrophage)**
+**Pigmented macrophages** in airspace (smoker’s macrophage)
 ##### Macrophages
 These cells are responsible for engulfing and digesting foreign substances, dead cells, and other debris. Macrophages also play a role in presenting antigens to other immune cells, thus initiating a more targeted immune response. Big cells eat up smoke.
  
 
 
 ![](Images/Multi_nuclei.png)
-**Multi nucleated cell** within an airspace. Normal cell has one nucleus.
+**Multi nucleated cells** within an airspace. Normal cell has one nucleus.
  
 ![](Images/Pink_Edema_fluid.png)
 **Pink edema (inflammation) fluid**
@@ -89,7 +89,7 @@ Cells on top of alveolar septa is called epithelial cells (connective tissue). I
  
 
 ![](Images/pneumocytes2.png)
-Pneumocytes are line on top of alveoli. Flat pneumocytes are flat called type I. Type II pneumocyte are not laying down but more standing on top of alveoli.
+**Pneumocytes** are line on top of alveoli. Flat pneumocytes are flat called type I. Type II pneumocyte are not laying down but more standing on top of alveoli.
 Not flat. Type II pneumocyte green arrows.
 When a damage happen, Type II pneumocytes grow. They produce surfactant.   
   
@@ -98,6 +98,7 @@ When a damage happen, Type II pneumocytes grow. They produce surfactant.
 
 **Alveoli septa** is main component for interstitial part of lung. 
 Interstitial lung disease all abnormality grows in lung on alveoli.
+
 ![](Images/Fibroblasts.png)
 
 
@@ -109,20 +110,21 @@ Interstitial lung disease all abnormality grows in lung on alveoli.
 
 ![](Images/Sarcoidosis.png) 
  
-All these are interstitial lung diseases.
+All these are **interstitial** lung diseases.
 
 
-### Bronchi
+# Bronchi
 
 Bronchus breathing tubes. Bronchi branch out into lungs. Mucosal side of view with a camera. Strained with H and E. cartilage is a feature of bronchi. Airway a umbrella term.
 
 ![](Images/Bronchi.png)
 
-Cartilage on the left. Right mucosa and submucosa. 
+**Cartilage** on the left. **Right mucosa** and **submucosa**. 
 1.	Cartilage. 
 2.	Outermost part of submucosa
 3.	Mucosa
 4.	Part of mucosa but more inner is epithelial.
+
 Cartilage is an important structural component of the body. It is a firm tissue but is softer and much more flexible than bone.
 Cartilage is a connective tissue found in many areas of the body including: Joints between bones e.g. the elbows, knees and ankles, Ends of the ribs, Between the vertebrae in the spine, Ears and nose
 
