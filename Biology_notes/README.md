@@ -36,7 +36,7 @@ The tissue is cut into pieces and put into cassette and fixed with wax and paraf
 ![](Images/Corpora_amylacea.png)
 Round structure which is called **corpora amylacea** which is found in older people as an artifact in human lungs.
  
- 
+
 ![](Images/Machrophages.png)
 **Pigmented macrophages** in airspace (smoker’s macrophage)
 ##### Macrophages
@@ -45,7 +45,7 @@ These cells are responsible for engulfing and digesting foreign substances, dead
 
 
 ![](Images/Multi_nuclei.png)
-**Multi nucleated cells** within an airspace. Normal cell has one nucleus.
+**Multi nucleated cells** within an airspace. Normal cell has one nucleus.<br>
  
 ![](Images/Pink_Edema_fluid.png)
 **Pink edema (inflammation) fluid**
