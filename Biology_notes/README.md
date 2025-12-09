@@ -36,7 +36,8 @@ The tissue is cut into pieces and put into cassette and fixed with wax and paraf
 ![](Images/Corpora_amylacea.png)
 Round structure which is called **corpora amylacea** which is found in older people as an artifact in human lungs.
  
-![](Images/Machrophage.png)
+ 
+![](Images/Machrophages.png)
 **Pigmented macrophages** in airspace (smoker’s macrophage)
 ##### Macrophages
 These cells are responsible for engulfing and digesting foreign substances, dead cells, and other debris. Macrophages also play a role in presenting antigens to other immune cells, thus initiating a more targeted immune response. Big cells eat up smoke.
