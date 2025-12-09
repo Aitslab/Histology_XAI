@@ -26,11 +26,11 @@ Inflammation is a natural and necessary process for defending the body. However,
 ![](Images/Inflammatory_cells.jpg)
 
 
-# H&E slides
+### H&E slides
 The tissue is cut into pieces and put into cassette and fixed with wax and paraffin. A very thin section picked up by technician on a slide and slide goes for staining which is Hematoxylin and eosin (H and E).
 
 
-# Airspace and empty space within alveolus
+### Airspace and empty space within alveolus
 
 ##### Abnormal things
 ![](Images/Corpora_amylacea.png)
@@ -114,7 +114,7 @@ Interstitial lung disease all abnormality grows in lung on alveoli.
 All these are **interstitial** lung diseases.
 
 
-# Bronchi
+### Bronchi
 
 Bronchus breathing tubes. Bronchi branch out into lungs. Mucosal side of view with a camera. Strained with H and E. cartilage is a feature of bronchi. Airway a umbrella term.
 
