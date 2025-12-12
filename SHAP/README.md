@@ -2,7 +2,7 @@
 
 # SHAP (SHapley Additive exPlanations) 
 
-In this [section](Histo_Shap_values.ipynb) we have 
+In this [section](Histo_Shap_values.ipynb), the code 
 
 Feeds each tile into a pretrained model
 
@@ -11,18 +11,21 @@ Generates SHAP explanations (activation/importance maps)
 Visualizes both the tile and its SHAP explanation
 
 To perform XAI (explainable AI) on image tiles.
+
+
 we have created  SHAP image masker
 ``` python
 masker = shap.maskers.Image("inpaint_ns", tmp_img.shape)
 ```
 SHAP masked parts of the image. "inpaint_ns" means it inpaints masked regions with a noise-based method. This helps evaluate which regions(pixels) contribute to the output.
 
-I then Created the SHAP explainer:
+We then Created the SHAP explainer:
+
 ``` python
 explainer = shap.Explainer(pretrained_model, masker, output_names=['low','medium','high'])
 ```
 where 
-pretrained_model is the ML model We are explaining
+pretrained_model is the ML model We are explaining (En_m_a)
 
 masker tells SHAP how to perturb the image.
 

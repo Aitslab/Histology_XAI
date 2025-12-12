@@ -50,8 +50,25 @@ The [first](./GradCAM/Visualize_Grad_Cam_initial_relu.ipynb) file illustrates th
 
 # SHAP (SHapley Additive exPlanations) 
 
+In this [section](SHAP/Histo_Shap_values.ipynb), We have Generated SHAP explanations (activation/importance maps) and  Visualized both the tile and its SHAP explanation to perform XAI (explainable AI) on image tiles.
 
+we have created  SHAP image masker
+``` python
+masker = shap.maskers.Image("inpaint_ns", tmp_img.shape)
+```
+SHAP masked parts of the image. This helps evaluate which regions(pixels) contribute to the output.
 
+We then Created the SHAP explainer:
+``` python
+explainer = shap.Explainer(pretrained_model, masker, output_names=['low','medium','high'])
+```
+where pretrained_model is the ML model We are explaining (En_m_a). output_names labels the model’s output classes.
+
+The I have Computed SHAP values as:
+```python
+shap_values = explainer(y, outputs=shap.Explanation.argsort.flip[:3])
+```
+and  Produced SHAP attribution maps for the model’s top 3 predicted classes where this tells us which pixels influenced the model.
 
 
 
