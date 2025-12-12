@@ -2,7 +2,7 @@
 
 # SHAP (SHapley Additive exPlanations) 
 
-In this [section](Histo_Shap_analysis.ipynb) we have 
+In this [section](Histo_Shap_values.ipynb) we have 
 
 Feeds each tile into a pretrained model
 
@@ -12,16 +12,15 @@ Visualizes both the tile and its SHAP explanation
 
 To perform XAI (explainable AI) on image tiles.
 we have created  SHAP image masker
-
-´´´ python
+``` python
 masker = shap.maskers.Image("inpaint_ns", tmp_img.shape)
-´´´
+```
 SHAP masked parts of the image. "inpaint_ns" means it inpaints masked regions with a noise-based method. This helps evaluate which regions(pixels) contribute to the output.
 
 I then Created the SHAP explainer:
-´´´ python
+``` python
 explainer = shap.Explainer(pretrained_model, masker, output_names=['low','medium','high'])
-´´´
+```
 where 
 pretrained_model is the ML model We are explaining
 
@@ -30,9 +29,9 @@ masker tells SHAP how to perturb the image.
 output_names labels the model’s output classes.
 
 The I have Computed SHAP values as:
-´´´python
+```python
 shap_values = explainer(y, outputs=shap.Explanation.argsort.flip[:3])
-´´´
+```
 and  Produced SHAP attribution maps for the model’s top 3 predicted classes where this tells us which pixels influenced the model.
 
 ✅ Summary
