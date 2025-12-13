@@ -38,7 +38,6 @@ The [first](./Unsupervised/Histo_unsupervised_featurespace_VGG16.ipynb) notebook
 
 
 ![](docs/_static/Grad_CAM.png)
-
 # Gradient-weighted Class Activation Mapping (Grad-CAM) 
 
 
@@ -47,16 +46,31 @@ The Gradient-weighted Class Activation Mapping (Grad-CAM) algorithm computes the
 The [first](./GradCAM/Visualize_Grad_Cam_initial_relu.ipynb) file illustrates the workflow using the initial ReLU activation function. The [second](./GradCAM/Visualize_GradCam_different_Activation_function.ipynb) notebook presents the analysis after replacing the activation function with ELU and Leaky ReLU, and so on. The [final](./GradCAM/Visualize_GradCam_train_more_layers.ipynb) notebook displays the activation maps for models with [deeper](./Train_more_layers/) layers trained.
 
 ![](docs/_static/shap.png)
-
 # SHAP (SHapley Additive exPlanations) 
 
+In this [section](SHAP/Histo_Shap_values.ipynb), We have Generated SHAP explanations (activation/importance maps) and  Visualized both the tile and its SHAP explanation to perform XAI (explainable AI) on image tiles.
 
+we have created  SHAP image masker
+``` python
+masker = shap.maskers.Image("inpaint_ns", tmp_img.shape)
+```
+SHAP masked parts of the image. This helps evaluate which regions(pixels) contribute to the output.
 
+We then Created the SHAP explainer:
+``` python
+explainer = shap.Explainer(pretrained_model, masker, output_names=['low','medium','high'])
+```
+where pretrained_model is the ML model We are explaining (En_m_a). output_names labels the model’s output classes.
+
+The I have Computed SHAP values as:
+```python
+shap_values = explainer(y, outputs=shap.Explanation.argsort.flip[:3])
+```
+and  Produced SHAP attribution maps for the model’s top 3 predicted classes where this tells us which pixels influenced the model.
 
 
 
 ![](docs/_static/Deeper_architecture.png)
-
 # Deeper architecture 
 
 
