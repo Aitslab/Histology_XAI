@@ -96,9 +96,11 @@ Attention mechanism with convolutional and locally connected layers are added to
 
 4. Attention Mechanism
 
-4.2 Second attention conv
+    4.1 First attention conv
 
-4.3 LocallyConnected2D
+    4.2 Second attention conv
+
+    4.3 LocallyConnected2D
 
 5. Channel Expansion Layer
 
