@@ -84,3 +84,34 @@ The results for best models are summarized in [VGG16](./VGG_train_more_layers.pn
 
 # Attention 
 
+Attention mechanism with convolutional and locally connected layers are added to the main architecture. The convolutional layers were utilized as filters to extract features from images. This then refined to attention weights by a ‘locally Connected’ layer with ‘sigmoid’ activation function. The attention weights then scaled and multiplied with image data. The masked features and the scaled attention weights were tracked in each epoch of training.  Randomly selected attention maps for the best model for each fold were inspected manually. The architecture of models with attention layers has following layers. 
+
+✅ Model with attention Architecture 
+
+1. Input Layer
+
+2. Base models (Pretrained, include_top=False)
+
+3. BatchNormalization
+
+4. Attention Mechanism
+
+4.2 Second attention conv
+
+4.3 LocallyConnected2D
+
+5. Channel Expansion Layer
+
+6. Masking & Pooling
+
+7. Rescaling Layer
+
+8. Dropout Layers
+
+9. Fully Connected Layers
+
+10. Output Dense(3, linear)
+
+
+The [Training](./Attention/Training/Attention.py) code and [visualization](./Attention/Attention_visualization.ipynb) of sample attention maps are described [here](./Attention/). results of models with adding attention layers are also 
+discussed [here](./Attention/Attention_results_table.ipynb) and [here](./Attention/Attention_results_table_EffNet.ipynb). 
