@@ -1,3 +1,4 @@
+![](docs/_static/graphical_abstract.png)
 
 ![](docs/_static/Summary.png)
 # From Pixels to Pathology: Explainable CNNs in Lung Tissue Analysis
