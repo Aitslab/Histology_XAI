@@ -92,9 +92,11 @@ The [Training](./Attention/Training/Attention.py) code and [visualization](./Att
 discussed [here](./Attention/Attention_results_table.ipynb) and [here](./Attention/Attention_results_table_EffNet.ipynb). 
 
 
+<img src="docs/_static/R.png" alt="Description" width="300" height="200">
+
 # Statistical Analysis
 
-<img src="../docs/_static/R.png" alt="Description" width="300" height="200">
+
 
 
 In this [section](Statistics/Statistical_significancy.ipynb), We performed comprehensive statistical significance tests comparing our  
