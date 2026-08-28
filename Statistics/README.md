@@ -1,4 +1,5 @@
-![](../docs/_static/R.png)
+
+<img src="../docs/_static/R.png" alt="Description" width="300" height="200">
 
 
 # Statistical Analysis
@@ -25,9 +26,9 @@ improved models against the baseline using all samples (n=8,073) as paired data 
    confirm statistical significance without distributional assumptions.
 
 **Results Summary:**
-![V_models](../results/V_statistical_significance_analysis.png)
+![V_models](results/V_statistical_significance_analysis.png)
 
-![E_models](../results/E_statistical_significance_analysis.png)
+![E_models](results/E_statistical_significance_analysis.png)
 
 
 All tests consistently demonstrate that our improved models significantly 
