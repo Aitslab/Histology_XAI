@@ -90,3 +90,27 @@ Attention mechanism with convolutional and locally connected layers are added to
 
 The [Training](./Attention/Training/Attention.py) code and [visualization](./Attention/Attention_visualization.ipynb) of sample attention maps are described [here](./Attention/). results of models with adding attention layers are also 
 discussed [here](./Attention/Attention_results_table.ipynb) and [here](./Attention/Attention_results_table_EffNet.ipynb). 
+
+
+# Statistical Analysis
+
+<img src="../docs/_static/R.png" alt="Description" width="300" height="200">
+
+
+In this [section](Statistics/Statistical_significancy.ipynb), We performed comprehensive statistical significance tests comparing our  
+improved models against the baseline using all samples (n=8,073) as paired data points.
+
+**Statistical Tests Performed:**
+
+1. **Paired t-test**
+
+2. **Wilcoxon signed-rank test**
+
+3. **McNemar's test**
+
+4. **Bootstrap 95% confidence intervals**
+
+**Results Summary:**
+All tests consistently demonstrate that our improved models significantly 
+outperform the baseline at p < 0.05. The bootstrap confidence intervals 
+exclude zero, confirming robustness of the improvements/degradation.
