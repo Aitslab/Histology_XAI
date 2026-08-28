@@ -1,4 +1,4 @@
-![](../results/V_statistical_significance_analysis.png)
+![](../docs/_static/R.png)
 
 
 # Statistical Analysis
@@ -26,7 +26,10 @@ improved models against the baseline using all samples (n=8,073) as paired data 
 
 **Results Summary:**
 ![V_models](../results/V_statistical_significance_analysis.png)
+
 ![E_models](../results/E_statistical_significance_analysis.png)
+
+
 All tests consistently demonstrate that our improved models significantly 
 outperform the baseline at p < 0.05. The bootstrap confidence intervals 
 exclude zero, confirming robustness of the improvements/degradation.
