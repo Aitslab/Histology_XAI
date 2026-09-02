@@ -1,0 +1,10 @@
+Configuration,Accuracy (%),F1-Score (%),Parameters (K),Inference (ms)
+V_r_a (Baseline),61,65.0,3228.291,256.7
+V_r_a+Grad-CAM(leakyReLU),79,78.0,3228.291,684.3
+V_c1+GradCAM,70,72.0,5588.099,784.3
+V_c1_c2+GradCAM,55,58.0,7947.907,584.3
+V_m_a_Attn,71,68.0,563.0,0.29
+EN_m_a,64,71.5,11256.4,572.3
+EN_BN+GradCAM,70,74.0,11260.03,1674.0
+EN_BN_c1+GradCAM,70,75.0,12062.85,1700.0
+EN_m_a_Attn,78,77.0,1958.5,2.4
