@@ -120,7 +120,7 @@ exclude zero, confirming robustness of the improvements/degradation.
 
 
 
-<img src="docs/_static/ViT.png" alt="Description" width="300" height="200">
+<img src="docs/_static/viT.png" alt="Description" width="300" height="200">
 
 # Visual Transformers
 
