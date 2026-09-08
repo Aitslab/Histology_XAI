@@ -27,7 +27,7 @@ mean = np.array([0.485, 0.456, 0.406])
 std = np.array([0.229, 0.224, 0.225])
 
 seed = 42
-nfolds = 5
+nfolds = 3
 nclasses = 3
 patch_size = 16
 image_size = 224
